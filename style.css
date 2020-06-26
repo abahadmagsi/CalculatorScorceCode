@@ -1,0 +1,53 @@
+.main{
+    border: 2px solid grey;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg");
+}
+.inp input{
+    width: 99%;
+    height: 100px;
+    background-color: #222121;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 500;
+
+}
+.clear{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: larger;
+}
+.btn{
+    width: 24%;
+    height: 40px;
+    margin: 1px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: larger;
+}
+.lastBtn{
+    width: 49%;
+    height: 40px;
+    margin: 2px;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: larger;
+}
+.equal{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: larger;
+}
+
+button:active{
+    background-color: black;
+}
