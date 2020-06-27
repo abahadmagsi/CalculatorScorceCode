@@ -3,42 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ahad's Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shotcut icon" href="/iconfinder_51_111141.ico">
 </head>
 <body>
     <div class="main">
         <div class="inp">
-            <input id="inp" type="text" disabled>
+            <h1><input id="inp" type="text" ></h1>
         </div>
-        <div>
-            <button class="clear" onclick="clearInp()">C</button>
-        </div>
-        <div>
+        <div class="btnframe">
+            <div>
+                <button class="btn btnColor1" onclick="clearInp()">AC</button>
+                <button class="btn btnColor1" >+/-</button>
+                <button class="btn btnColor1" onclick="getNumber('%')">%</button>
+                <button class="btn btnColor2" onclick="getNumber('/')">&#247</button>
+            </div>
             <div>
                 <button class="btn" onclick="getNumber('7')">7</button>
                 <button class="btn" onclick="getNumber('8')">8</button>
                 <button class="btn" onclick="getNumber('9')">9</button>
-                <button class="btn" onclick="getNumber('*')">X</button>
+                <button class="btn btnColor2" onclick="getNumber('*')">X</button>
             </div>
             <div>
                 <button class="btn" onclick="getNumber('4')">4</button>
                 <button class="btn" onclick="getNumber('5')">5</button>
                 <button class="btn" onclick="getNumber('6')">6</button>
-                <button class="btn" onclick="getNumber('-')">-</button>
+                <button class="btn btnColor2" onclick="getNumber('-')">-</button>
             </div>
             <div>
                 <button class="btn" onclick="getNumber('1')">1</button>
                 <button class="btn" onclick="getNumber('2')">2</button>
                 <button class="btn" onclick="getNumber('3')">3</button>
-                <button class="btn" onclick="getNumber('+')">+</button>
+                <button class="btn btnColor2" onclick="getNumber('+')">+</button>
             </div>
             <div>
-                <button class="lastBtn" onclick="getNumber('0')">0</button>
-                <button class="lastBtn" onclick="getNumber('/')">/</button>
-            </div>
-            <div>
-                <button class="equal" onclick="result()">=</button>
+                <button class="lastBtn btn zero" onclick="getNumber('0')">0</button>
+                <button class="lastBtn btn" onclick="getNumber('.')">/</button>
+                <button class="equal btn btnColor2" onclick="result()">=</button>
             </div>
         </div>
     </div>
